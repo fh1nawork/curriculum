@@ -1,0 +1,83 @@
+.header {
+    height: 100px;
+    background-color: #848a9c;
+}
+
+.wrapper {
+    width: 400px;
+    height: 450px;
+    margin: 0;
+}
+/* wrapperクラスを中央寄せ */
+
+/** contents **/
+.contents {
+    height: 640px;
+}
+/** end of contents **/
+
+
+/** left **/
+.left {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+/** end of left **/
+
+/** center_right **/
+.center_right{
+
+    clear:left;
+}
+
+
+/** end of /** end of left **/
+
+/** center **/
+.center {
+    width: 250px;
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.center1 {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+
+.center2 {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+
+/** end of center **/
+
+/** right **/
+.right {
+    float:right;
+    width: 100px;
+    height: 150px;
+    background-color: #d98d30;
+}
+
+/** end of right **/
+
+.center_to_right {
+
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+/** footer **/
+.footer {
+    height: 100px;
+    background-color: #f2dede;
+}
+/** end of footer **/

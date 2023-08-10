@@ -5,7 +5,6 @@
 
 .wrapper {
     width: 400px;
-    height: 450px;
     margin: 0;
 }
 /* wrapperクラスを中央寄せ */
@@ -40,17 +39,20 @@
 .center {
     width: 250px;
     height: 150px;
-    margin-left: 150px;
-    margin-right: 100px;
-}
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 .center1 {
+    float:left;
     width: 150px;
     height: 50px;
     background-color: #dbd400;
+
 }
 
 .center2 {
+    float:left;
     width: 150px;
     height: 100px;
     background-color: #0093b7;

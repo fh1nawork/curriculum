@@ -1,17 +1,19 @@
-.header {
-    height: 100px;
-    background-color: #848a9c;
-}
-
 .wrapper {
     width: 400px;
     margin: 0;
 }
 /* wrapperクラスを中央寄せ */
 
+.header {
+    height: 100px;
+    background-color: #848a9c;
+}
+
+
 /** contents **/
 .contents {
-    height: 640px;
+    height: 250px;
+    width: 400px;
 }
 /** end of contents **/
 
@@ -29,7 +31,10 @@
 /** center_right **/
 .center_right{
 
+    width: 250px;
+    height: 250px;
     clear:left;
+
 }
 
 
@@ -41,6 +46,14 @@
     height: 150px;
     margin-left: auto;
     margin-right: auto;
+    }
+
+.center12 {
+    float:left;
+    width: 150px;
+    height: 150px;
+
+    
     }
 
 .center1 {
@@ -65,7 +78,7 @@
     float:right;
     width: 100px;
     height: 150px;
-    background-color: #d98d30;
+    background-color: #ff9e6b;
 }
 
 /** end of right **/
@@ -80,6 +93,6 @@
 /** footer **/
 .footer {
     height: 100px;
-    background-color: #f2dede;
+    background-color: #d98d30;
 }
 /** end of footer **/

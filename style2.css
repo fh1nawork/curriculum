@@ -29,7 +29,7 @@
 /** end of left **/
 
 /** center_right **/
-.center_right{
+.clearfix center_right{
 
     width: 250px;
     height: 250px;
@@ -45,7 +45,6 @@
     width: 250px;
     height: 150px;
     margin-left: auto;
-    margin-right: auto;
     }
 
 .center12 {
@@ -88,6 +87,8 @@
     width: 250px;
     height: 100px;
     background-color: #8c2727;
+    float:right;
+
 }
 
 /** footer **/

@@ -6,7 +6,7 @@
 
 .header {
     height: 100px;
-    background-color: #848a9c;
+    background-color: #141f40;
 }
 
 
@@ -97,3 +97,213 @@
     background-color: #d98d30;
 }
 /** end of footer **/
+
+
+@media  screen and (max-width: 767px) {
+    .wrapper {
+        width: 300px;
+        margin: 0;
+    }
+    /* wrapperクラスを中央寄せ */
+    
+    .header {
+        height: 100px;
+        width: 300px;
+        background-color: #141f40;
+    }
+    
+    
+    /** contents **/
+    .contents {
+        height: 250px;
+        width: 300px;
+    }
+    /** end of contents **/
+    
+    
+    /** left **/
+    .left {
+        float: left;
+        width: 100px;
+        height: 250px;
+        background-color: #80bfa8;
+    }
+    
+    /** end of left **/
+    
+    /** center_right **/
+    .clearfix center_right{
+    
+        width: 125px;
+        height: 250px;
+        clear:left;
+    
+    }
+    
+    
+    /** end of /** end of left **/
+    
+    /** center **/
+    .center {
+        height: 150px;
+        margin-left: auto;
+        }
+    
+    .center12 {
+        float:left;
+        width: 125px;
+        height: 150px;
+    
+        
+        }
+    
+    .center1 {
+        float:left;
+        width: 125px;
+        height: 50px;
+        background-color: #dbd400;
+    
+    }
+    
+    .center2 {
+        float:left;
+        width: 125px;
+        height: 100px;
+        background-color: #0093b7;
+    }
+    
+    /** end of center **/
+    
+    /** right **/
+    .right {
+        float:right;
+        width: 75px;
+        height: 150px;
+        background-color: #ff9e6b;
+    }
+    
+    /** end of right **/
+    
+    .center_to_right {
+    
+        width: 200px;
+        height: 100px;
+        background-color: #8c2727;
+        float:right;
+    
+    }
+    
+    /** footer **/
+    .footer {
+        width: 300px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+    /** end of footer **/
+}
+
+@media  screen and (max-width: 479px) {
+
+    .wrapper {
+        width: 150px;
+        margin: 0;
+    }
+    /* wrapperクラスを中央寄せ */
+    
+    .header {
+        height: 100px;
+        width: 150px;
+        background-color: #141f40;
+    }
+    
+    
+    /** contents **/
+    .contents {
+        height: 650px;
+        width: 150px;
+    }
+    /** end of contents **/
+    
+    
+    /** left **/
+    .left {
+        float: left;
+        width: 150px;
+        height: 250px;
+        background-color: #80bfa8;
+    }
+    
+    /** end of left **/
+    
+    /** center_right **/
+    .clearfix center_right{
+    
+        width: 150px;
+        height: 250px;
+        clear:left;
+    
+    }
+    
+    
+    /** end of /** end of left **/
+    
+    /** center **/
+    .center {
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+        }
+    
+    .center12 {
+        float:left;
+        width: 150px;
+        height: 150px;
+    
+        
+        }
+    
+    .center1 {
+        float:left;
+        width: 150px;
+        height: 50px;
+        background-color: #dbd400;
+    
+    }
+    
+    .center2 {
+        float:left;
+        width: 150px;
+        height: 100px;
+        background-color: #0093b7;
+    }
+    
+    /** end of center **/
+    
+    /** right **/
+    .right {
+        float:right;
+        width: 150px;
+        height: 150px;
+        background-color: #ff9e6b;
+    }
+    
+    /** end of right **/
+    
+    .center_to_right {
+    
+        width: 150px;
+        height: 100px;
+        background-color: #8c2727;
+        float:right;
+    
+    }
+    
+    /** footer **/
+    .footer {
+        width: 150px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+    /** end of footer **/
+}
+

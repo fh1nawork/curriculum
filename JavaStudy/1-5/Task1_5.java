@@ -1,5 +1,3 @@
-package chapter1;
-
 /** 
  * Task1-5 : 課題内容
  *
@@ -7,7 +5,7 @@ package chapter1;
  * 問①〜問④まであります。
  * for文・while文の仕組みを意識しながらコーディングしていきましょう！
  */
-public class Task1_5 {
+public class test {
 
     public static void main(String[] args) {
 
@@ -51,16 +49,18 @@ public class Task1_5 {
         
         for (int n = 1; n <= 9;) { 
         	   // １つの段を表示 
+        	
         	   for (int j = 1; j <= 9; ) { 
-        	      
-        		   System.out.print(n*j+"||"  + n*j + "|"+ n*j*2 + "|"+ n*j*3 + "|"+ n*j*4 + "|"+ n*j*5 + "|"+ n*j*6 + "|"+ n*j*7 + "|"+ n*j*8 + "|"+ n*j*9 + "|"); 
+        	           		   
+        		   System.out.print(j+ "||"+ j + "|" + j*2+ "|"+ j*3 + "|"+ j*4 + "|"+ j*5 + "|"+ j*6 + "|"+ j*7 + "|"+ j*8 + "|"+ j*9 + "|"); 
             	   System.out.println();
         	   
         	      j++;
+
         	   } 
         	   
-        	   i++;
-
+        	
+        	    n++;
         	   
         	   break;
         	}
